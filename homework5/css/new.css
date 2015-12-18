@@ -1,0 +1,226 @@
+html{
+	font-size: 62.5%;
+}
+body{
+	font-family: tahoma, sans-serif;
+	text-align: left;
+	line-height: 1.6rem;
+}
+.wrapper{
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+	color: #191919;
+}
+.main{
+	background-color: #f4f4f4;
+	background-size: 100%;
+	overflow: hidden;
+}
+.header {
+	margin: 20px 0 10px 20px;
+}
+.header a{
+	font-size: 1.8rem;
+	font-family: arial;
+	font-weight: 900;
+}
+
+/*-----------------------------------------------sidebar_left---------------------------------------------*/
+.sidebar_left{
+	float: left;
+	font-size: 1.2rem;
+	margin: 23px 0 0 20px;
+	width: 13%;
+}
+.lsidebar_foto{
+	width: 100%;
+	height: auto;
+	padding: 3px 0 13px 0;
+}
+.sidebar_left_title {
+	font-size: 1.3rem;
+	color: #191919;
+	font-weight: 900px;
+	margin-bottom: 6px;
+}
+.sidebar_left h3{
+	font-size: 1.3rem;
+	color: #191919;
+	font-weight: 700;
+	margin: 0 0 6px 0;
+}
+.left_nav{
+	font-weight: 500;
+	padding: 6px 0 6px 5px;
+}
+.left_nav li{
+	padding: 5px;
+	margin: 5px 0;
+	background: #e8e8e8;}
+
+.left_nav li:hover{
+	background: gray;
+}
+.right{
+	float: right;
+	color: #888888;
+}
+.right:hover{
+	background: gray;
+}
+input{
+	width: 100%;
+}
+
+/*-----------------------------------------------content-------------------------------------*/
+.content{
+	width: 50%;
+	float: left;
+	font-size: 1.2rem;
+	margin: 23px 25px 25px 25px;
+}
+.main_foto{
+	width: 100%;
+	height: auto;
+	padding: 15px 0 0;
+}
+.content h1 {
+	font-family: arial;
+	font-size: 2.4rem;
+	padding-top: 5px;
+}
+.content h2 {
+	font-family: arial;
+	font-size: 1.8rem;
+	padding-top: 10px;
+	padding-bottom: 17px;
+}
+.section li{
+	display: inline;
+	color: #191919;
+}
+.text_ande_foto{
+	color: #555555;
+	width: 100%;
+	margin: 25px 0 0 0;
+}
+.other_color li{
+	display: inline;
+	color: #000000;
+}
+.color_gray{
+	color: gray;
+}
+.second_title{
+	font-family: arial;
+	font-size: 1.8rem;
+	color: #555555;
+	padding: 7px 0 13px 0;
+}
+.post_nomer{
+	width: 100%;
+}
+.post_img_1{
+	width: 45%;
+	height: auto;
+	float: right;
+	padding: 0;
+}
+.blok_post{
+	overflow: hidden;
+	width: 45%;
+	padding-bottom: 5px;
+}
+.text_post{
+	font-weight: 500px;
+	color: #555555;
+	padding: 0 0 43px 0;
+}
+.pagination ul li {
+	display: inline;
+	background: #ffffff;
+	padding: 5px;
+}
+.pagination ul li a:hover{
+	background: #555555;
+	padding: 5px;
+}
+.name_page{
+	color: #555555;
+}
+.highlighted_item{
+	background: #555555;
+	padding: 5px;
+}
+.date_1{
+	padding: 25px 0 58px 0;
+	
+}
+.date{
+	border-top: 1px solid #555555;
+	padding: 5px 0 58px 0;
+}
+
+/*-----------------------------------------------sidebar_right-------------------------------------------*/
+.sidebar_right{
+	float: left;
+	margin: 23px 0 0 0;
+	font-size: 1.2rem;
+	width: 31%;
+}
+.sidebar_160{
+	width: 50%;
+	float: right;
+	margin-right: 6%;
+	color: #000000;
+}
+.sidebar_120{
+	width: 30%;
+	overflow: hidden;
+	color: #555555;
+	float: right;
+	padding-right: 14%;
+	}	
+.two_sidebar{
+	font-weight: 500px;
+	}
+.sidebar_right h3 {
+	font-size: 1.3rem;
+	color: #191919;
+	font-weight: 700;
+	margin: 0 0 7px 0;
+	}
+.rsidebar_img{
+	float: left;
+	width: 100%;
+	height: 358px;
+	margin: 10px 0 38px 0;
+}
+.logo_t_1 {
+	float: left;
+	padding-right: 10px;
+}
+.name_logo
+{
+	color: #000000;
+	width: 85px;
+	font-weight: 700;
+	float: left;
+	padding-right: 25px;
+}
+.number_logo_1
+{
+	color: #888888;
+	float: left;
+}
+/*-----------------------------------------------footer---------------------------------------------*/
+.footer{
+	overflow: hidden;
+	font-size: 1.2rem;
+	font-color: #555555;
+	margin: 20px 0 50px 20px;
+}

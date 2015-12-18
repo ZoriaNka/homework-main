@@ -1,9 +1,12 @@
 @import url(../font/stylesheet.css);
 
+html{
+	font-size: 62,5%;
+}
 
 body{
  	font-family: "open_sansregular", serif;
- 	font-size: 14px;
+ 	font-size: 1.4rem;
  	font-weight: 400px;
  	color: #39c9da;
  	line-height: 45px;
@@ -14,8 +17,8 @@ a{
 }
 header{
 	background-image: url(../image/main-bg.jpg);
-    background-size: cover;
-    height: 535px;
+  background-size: cover;
+  height: 535px;
 }
 .wraper{
 	width: 1168px;
@@ -24,13 +27,13 @@ header{
 }
 .logo{
 	float: left;
-	font-size: 30px;
+	font-size: 3rem;
 	font-weight: 700;
 }
 .point{
 	color: white;
 	font-family: "robotoregular";
-	font-size: 48px;
+	font-size: 4.8px;
 }
 header nav{
 	float: right;
@@ -56,7 +59,7 @@ nav a:hover{
 	text-align: center;
 	width: 504px;
 	color: white;
-	font-size: 33px;
+	font-size: 2.3rem;
 	font-weight: 700;
 	padding-bottom: 42px;
 }
