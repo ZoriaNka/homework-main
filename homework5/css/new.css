@@ -55,7 +55,7 @@ a{
 }
 .left_nav{
 	font-weight: 500;
-	padding: 6px 0 6px 5px;
+	padding: 6px 0 6px -5px;
 }
 .left_nav li{
 	padding: 5px;

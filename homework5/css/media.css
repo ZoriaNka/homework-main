@@ -23,7 +23,7 @@
   margin: 0;
 }
 .logo_t{
-  display: none;
+ display: none;
 }
 .main_foto{
   width: 100%;
@@ -32,7 +32,7 @@
   padding-top: 8px; 
 }
 .text_ande_foto{
-  width: 90%;
+  width: 98%;
   margin: 0;
   padding-top: 5px;
 }
@@ -48,7 +48,7 @@
   padding: 0;
 }
 .blok_post{
-  width: 90%;
+  width: 98%;
   margin: 0;
   padding: 0;
 }
@@ -69,7 +69,106 @@ padding: 0 0 5px;
   padding: 5px 0;
 }
 .pagination{
-  display: none;
+  margin: 5px 0;
+}
+.sidebar_right{
+  width: 100%;
+  float: none;
+  margin-bottom: 10px;
+}
+.sidebar_160,
+.sidebar_120{
+  width: 100%;
+  float: none;
+  text-align: center;
+}
+.sidebar_right h3 {
+  margin: 0;
+  padding: 0;
+  padding-top: 15px;
+  text-align: center;
+}
+.rsidebar_img{
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.footer{
+  margin: 0;
+  padding: 5px 0;
+}
+}
+@media screen and (min-width: 480px) and (max-width: 767px){
+     html{
+  font-size: 70%;
+}
+.wraper{
+  margin: 0;
+  overflow: hidden;
+}
+.header {
+  margin: 5px 0 10px 10px;
+}
+.sidebar_left{
+ float: left;
+ width: 20%;
+}
+.content{
+  overflow: hidden;
+  margin: 0 0 0 25px;
+  padding: 0;
+  width: 70%;
+}
+.logo_t{
+ display: none;
+}
+.main_foto{
+  width: 100%;
+  margin: 0;
+  margin-left: -10px;
+  padding-top: 8px; 
+}
+.text_ande_foto{
+  width: 98%;
+  margin: 0;
+  padding-top: 5px;
+}
+.post_img_1{
+  float:none;
+  width: 100%;
+  margin: 0;
+  padding: 5px 0;
+  margin-left: -10px;
+}
+.other_color{
+  margin: 0;
+  padding: 0;
+}
+.blok_post{
+  width: 98%;
+  margin: 0;
+  padding: 0;
+}
+.text_post{
+padding: 0 0 5px;
+}
+.post_nomer{
+  margin: 0;
+  padding: 0;
+}
+.date_1,
+.date{
+  margin: 0;
+  padding: 5px 0;
+}
+.content h2{
+  margin: 0;
+  padding: 5px 0;
+}
+.pagination{
+  margin: 5px 0;
 }
 .sidebar_right{
   width: 100%;
@@ -92,6 +191,7 @@ padding: 0 0 5px;
   width: 100%;
   height: auto;
   margin: 0;
+  padding-top: 5px;
   padding-bottom: 10px;
 }
 .footer{
@@ -99,15 +199,215 @@ padding: 0 0 5px;
   padding: 5px 0;
 }
 }
-@media screen and (min-width: 480px) and (max-width: 767px){
-    
-}
 @media screen and (min-width: 768px) and (max-width: 1023px){
-
+     html{
+  font-size: 70%;
 }
-@media screen and (min-width: 1024px) {
-
+.wraper{
+  margin: 0;
+  overflow: hidden;
 }
-@media screen and (min-width: 1200px) {
-
+.header {
+  margin: 5px 0 10px 10px;
+}
+.sidebar_left{
+ float: left;
+ width: 12%;
+}
+.content{
+  overflow: hidden;
+  margin: 10px 18px 0 18px;
+  padding: 0;
+  width: 50%;
+}
+.content h1{
+  width: 98%;
+  margin-right: 0;
+}
+.logo_t{
+  display: none;
+ }
+.main_foto{
+  width: 100%;
+  margin: 0;
+  padding-top: 8px; 
+}
+.text_ande_foto{
+  width: 98%;
+  margin: 0;
+  padding-top: 5px;
+}
+.post_img_1{
+  float:none;
+  width: 100%;
+  margin: 0;
+  padding: 5px 0;
+}
+.other_color{
+  margin: 0;
+  padding: 0;
+}
+.blok_post{
+  width: 98%;
+  margin: 0;
+  padding: 0;
+}
+.text_post{
+  padding: 0 0 5px;
+}
+.post_nomer{
+  margin: 0;
+  padding: 0;
+}
+.date_1,
+.date{
+  margin: 0;
+  padding: 5px 0;
+}
+.content h2{
+  margin: 0;
+  padding: 5px 0;
+}
+.pagination{
+  margin: 5px 0;
+}
+.sidebar_right{
+  width: 29%;
+  float: left;
+  margin-bottom: 10px;
+  margin-top: 47px;
+}
+.sidebar_160,
+.sidebar_120{
+  width: 100%;
+  float: none;
+  text-align: center;
+}
+.sidebar_right h3 {
+  margin: 0;
+  padding: 0;
+  padding-top: 15px;
+  text-align: center;
+}
+.rsidebar_img{
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.footer{
+  margin: 0;
+  padding: 5px 0;
+}
+}
+@media screen and (min-width: 1024px) and (max-width: 1199px){
+ html{
+  font-size: 70%;
+}
+.wraper{
+  margin: 0;
+  overflow: hidden;
+}
+.header {
+  margin: 5px 0 10px 10px;
+}
+.sidebar_left{
+ float: left;
+ width: 12%;
+}
+.content{
+  overflow: hidden;
+  margin: 10px 18px 0 18px;
+  padding: 0;
+  width: 50%;
+}
+.content h1{
+  width: 98%;
+  margin-right: 0;
+}
+.main_foto{
+  width: 100%;
+  margin: 0;
+  padding-top: 8px; 
+}
+.text_ande_foto{
+  width: 98%;
+  margin: 0;
+  padding-top: 5px;
+}
+.post_img_1{
+  float:none;
+  width: 100%;
+  margin: 0;
+  padding: 5px 0;
+}
+.other_color{
+  margin: 0;
+  padding: 0;
+}
+.blok_post{
+  width: 98%;
+  margin: 0;
+  padding: 0;
+}
+.text_post{
+  padding: 0 0 5px;
+}
+.post_nomer{
+  margin: 0;
+  padding: 0;
+}
+.date_1,
+.date{
+  margin: 0;
+  padding: 5px 0;
+}
+.content h2{
+  margin: 0;
+  padding: 5px 0;
+}
+.pagination{
+  margin: 5px 0;
+}
+.sidebar_right{
+  width: 29%;
+  float: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.logo_t{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ }
+ .name_logo
+{
+  font-size: 70%;
+  width: 24%;
+  float: left;
+}
+.sidebar_160,
+.sidebar_120{
+  width: 100%;
+  float: none;
+  text-align: center;
+}
+.sidebar_right h3 {
+  margin: 0;
+  padding: 0;
+  padding-top: 15px;
+  text-align: center;
+}
+.rsidebar_img{
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.footer{
+  margin: 0;
+  padding: 5px 0;
+}
 }
