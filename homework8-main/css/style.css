@@ -1,83 +1,79 @@
 @import url(../font/stylesheet.css);
 
-html{
-	font-size: 62,5%;
+html {
+	font-size: 62.5%;
 }
 
-body{
+body {
  	font-family: "open_sansregular", serif;
  	font-size: 1.4rem;
  	font-weight: 400px;
  	color: #39c9da;
- 	line-height: 45px;
+ 	line-height: 4.5rem;
 }
-a{
+a {
 	text-decoration: none;
 	color: #39c9da;
 }
-header{
+header {
 	background-image: url(../image/main-bg.jpg);
-  background-size: cover;
-  height: 535px;
+	background-size: cover;
+	padding-bottom: 25px;
 }
-.wraper{
+.wraper {
 	width: 1168px;
 	margin: 0 auto;
 	padding-top: 32px;
 }
-.logo{
+.logo {
 	float: left;
 	font-size: 3rem;
 	font-weight: 700;
 }
-.point{
+.point {
 	color: white;
 	font-family: "robotoregular";
-	font-size: 4.8px;
 }
-header nav{
+header nav {
 	float: right;
 	padding-top: 30px;
 }
-nav ul li{
+nav ul li {
 	display: inline-block;
 	text-align: center;
 }
-nav ul li a{
+nav ul li a {
 	color: white;
-	font-size: 15px;
+	font-size: 1.5rem;
 	font-weight: 700;
 	padding-right: 40px;
 }
-nav a:hover{
+nav a:hover {
 	color: #39c9da;
 	transition: 1s;
 }
 .wraper h1 {
 	margin: 0 auto;
-	padding-top: 210px;
+	padding: 210px 28% 0;
 	text-align: center;
-	width: 504px;
 	color: white;
-	font-size: 2.3rem;
-	font-weight: 700;
+	font-size: 3.2rem;
+	font-weight: 900;
 	padding-bottom: 42px;
 }
-.dow{
+.dow {
 	display: block;
-	margin: 0 auto;
 	text-align: center;
-	width: 200px;
+	margin: 0 40%;
 	color: white;
-	font-size: 20px;
+	font-size: 2rem;
 	font-weight: 700;
-	
 	background-color: #39c9da;
-	border-radius: 4px;
-	padding: 5px;
 	border: 1px solid #39c9da;
+	border-radius: 7px;
+	padding: 15px 0;
 }
-.dow:hover{
+.dow:hover {
 	transition: 1s;
 	background-color: transparent;
 	color: #39c9da;
@@ -85,11 +81,10 @@ nav a:hover{
 .about-us h1,
 .portfolio h1,
 .service h1,
-.contact-us h1{
-	padding-top: 64px;
-	width: 151px;
+.contact-us h1 {
+	padding-top: 34px;
 	color: #504f50;
-	font-size: 20px;
+	font-size: 2rem;
 	font-weight: 700;
 	text-transform: uppercase;
 	padding-bottom: 0px;
@@ -97,55 +92,45 @@ nav a:hover{
 }
 .text {
 	margin: 0 auto;
-	padding-top: 23px;
-	padding-bottom: 46px;
+	padding: 23px 25% 16px;
 	text-align: center;
-	width: 486px;
-	height: 34px;
 	color: #a8a8a8;
-	font-size: 14px;
-	line-height: 20px;
+	font-size: 1.4rem;
+	line-height: 2rem;
 }
-.about-us h2{
-	float: right;
-	width: 382px;
+.text-article h2 {
 	color: #504f50;
-	font-size: 14px;
+	font-size: 1.4rem;
 	font-weight: 700;
-	line-height: 20px;
+	line-height: 2rem;
 	text-transform: uppercase;
-	padding-bottom: 16px;
+	padding: 5px 0;
+	text-align: left;
+	display: inline;
 	border-bottom: 2px solid #39c9da;
-	margin-right: 193px;
-	border-height: 99px;
 }
-.main-info{
-	padding-top: 29px;
-}
-.text-article p{
-	width: 562px;
+.text-article p {
 	color: #a8a8a8;
-	font-size: 14px;
-	line-height: 20px;
+	font-size: 1.4rem;
+	line-height: 2rem;
 	text-align: left;
 	overflow: hidden;
-	padding-left: 31px;
 	padding-top: 20px;
 }
-.button{
+.button {
 	color: white;
 	overflow: hidden;
 	display: block;
 	text-align: center;
-	width: 200px;
-	font-size: 20px;
+	margin-right: 65%;
+	font-size: 2rem;
 	font-weight: 700;
 	background-color: #39c9da;
 	border-radius: 4px;
 	border: 1px solid #39c9da;
 	padding: 10px 20px;
 }
-.button a{
+.button a {
 	color: white;
 }
 .button:hover {
@@ -153,14 +138,11 @@ nav a:hover{
 	background-color: transparent;
 	color: #39c9da;
 }
-.button:hover a{
-	color: #39c9da;
-}
-.img-about-us{
+.img-about-us {
 	float: left;
-	width: 522px;
 	height: auto;
-	padding-right: 40px;
+	padding-top: 30px;
+	padding-right: 20px;
 }
 .portfolio,
 .contact-us {
@@ -168,100 +150,94 @@ nav a:hover{
 	background-color: #f4f4f4;
 	border: 1px solid #e8e8e8;
 }
-.portfolio{
+.portfolio {
 	overflow: hidden;
 }
-.portfolio h1{
+.portfolio h1 {
 	padding-top: 0;
 }
 .img-portfolio {
 	display: block;
 	position: relative;
 	float: left;
-	width: 370px;
-	margin-right: 15px;
-	padding-bottom: 60px;
 	background: #ffffff;
+	margin-right: 15px;
 	margin-bottom: 42px;
+	padding-bottom: 60px;
 }
-.img-portfolio:hover{
+.img-portfolio:hover {
 	transition: 0.5s;
 	opacity: 0.5;
 }
-.img-portfolio:hover .read{
+.img-portfolio:hover .read {
 	color: #ffffff;
 	border: 2px solid #e8e8e8;
 }
 .read {
 	position: absolute; left: 100px; top: 130px;
-	font-size: 16px;
-	line-height: 22px;
+	font-size: 1.6rem;
+	line-height: 2.2rem;
 	font-weight: 700;
 	border: 2px solid transparent;
 	padding: 15px 35px;
 	color: transparent;
 }
-figcaption{
+figcaption {
 	display: block;
-	font-size: 14px;
-	line-height: 20px;
+	font-size: 1.4rem;
+	line-height: 2rem;
 	font-weight: 700;
 	text-align: left;
 	color: #504f50;
 	padding-left: 10px;	
 	padding-top: 10px;
 }
-span.web{
+.web {
 	display: block;
 	float: right;
 	font-style: italic;
-	font-size: 11px; 
+	font-size: 1.1rem; 
 	color: #a8a8a8;
 	padding-right: 20px;
 }
-.service{
+.service {
 	margin: 0 auto;
 	overflow: hidden;
 }
-.service h1{
+.service h1 {
 	padding-top: 52px;
 }
-.work{
+.work {
 	width: 20%;
 	float: left;
 	text-align: center;
-	margin: 0 auto;
 	border: 1px solid #e2e2e2;
 	margin-right: 30px;
 	padding: 30px 10px;
 }
-.work:last-child{
+.work:last-child {
 	overflow: hidden;
 }
-.work h2{
+.work h2 {
 	padding-top: 24px;
 	color: #504f50;
-	font-size: 20px;
+	font-size: 2rem;
 	font-weight: 700;
 	text-transform: uppercase;
 	padding-bottom: 15px;
 }
-.work p{
+.work p {
 	color: #504f50;
-	font-size: 14px;
-	line-height: 20px;
+	font-size: 1.4rem;
+	line-height: 2rem;
 	padding-bottom: 28px;
 }
-.work:hover .fa{
+.work:hover .fa,
+.work:hover h2,
+.work:hover p {
 	color: #ffffff;
 }
-.work:hover h2{
-	color: #ffffff;
-}
-.work:hover p{
-	color: #ffffff;
-}
-.work:hover{
+.work:hover {
 	background-color: #39c9da;
 	color: #ffffff;
 	transition: 1s;
@@ -271,77 +247,76 @@ span.web{
 	background-color: #4b4a4b;
 	border-radius: 2px;
 	color: white;
-	font-size: 14px;
-	line-height: 20px;
+	font-size: 1.4rem;
+	line-height: 2rem;
 }
-.work:hover .read-more{
+.work:hover .read-more {
 	background-color: #ffffff;
 	color: #504f50;
 }
-.contact-us{
+.contact-us {
 	padding-top: 28px;
 	padding-bottom: 46px;
 }
-.contact-us h1{
+.contact-us h1 {
 	padding-top: 0;
 }
 .contact-info {
 	float: left;
 	margin-right: 42px;
 	color: #504f50;
-	font-size: 14px;
-	line-height: 20px;
+	font-size: 1.4rem;
+	line-height: 2rem;
 	font-weight: 700;
 }
-.contact-info h2{
-	width: 124px;
+.contact-info h2 {
+	margin-right: 70%;
 	padding-bottom: 19px;
 	border-bottom: 2px solid #39c9da;
 	text-transform: uppercase;
 }
-.contact-info p{
-	width: 562px;
+.contact-info p {
+	width: 450px;
 	padding-top: 29px;
 	padding-bottom: 23px;
 	color: #a8a8a8;
 	font-weight: 400;
 }
-.contact-info p:last-child{
-	width: 132px;
+.contact-info p:last-child {
+	width: 35%;
 	padding-top: 19px;
 }
-.address-form{
-	overflow: hidden;
-}
-input{
+input {
 	padding: 10px;
-	width: 250px;
-	height: 47px;
+	width: 25%;
 	background-color: #ffffff;
-	font-size: 14px;
+	font-size: 1.4rem;
 	font-weight: 400;
-	line-height: 15px;
+	line-height: 1.5rem;
 	margin-bottom: 20px;
 	margin-right: 5px;
 	opacity: 0.5;
 }
-.subject{
-	width: 532px;
+.email{
+	width: 25%;
+	overflow: hidden;
 }
-.message{
-	width: 532px;
+.subject {
+	width: 53%;
+}
+.message {
+	width: 53%;
 	height: 152px;
 }
-.submit{
-	margin-left: 350px;
+.submit {
+	margin-left: 30%;
 	color: white;
 	overflow: hidden;
 	text-align: center;
-	width: 200px;
 	padding: 0px;
-	font-size: 20px;
+	font-size: 2rem;
 	font-weight: 700;
-	line-height: 45px;
+	line-height: 4.5rem;
 	background-color: #39c9da;
 	border-radius: 4px;
 	border: 1px solid #39c9da;
@@ -352,19 +327,18 @@ input{
 	background-color: transparent;
 	color: #39c9da;
 }
-footer{
+footer {
 	margin: 0;
 	padding: 0;
 	background-color: #39c9da;
 }
-footer p{
-	padding: 20px 0;
+footer p {
 	text-align: center;
 	color: white;
-	font-size: 14px;
+	font-size: 1.4rem;
 	font-weight: 400;
-	line-height: 20px 0 15px 0;
+	padding: 20px 0 15px 0;
 }
-footer p a{
+footer p a {
 	color: white;
 }

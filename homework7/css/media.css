@@ -22,6 +22,9 @@
   nav{
     display: none;
   }
+  .blok-first{
+    background-position: center;
+  }
   .blok-first h1{
     font-size: 3.5rem;
     line-height: 5rem;
@@ -74,8 +77,11 @@
   .blok-second h3{
     padding-top: 19px;
   }
-   .content-blok-third{
+  .content-blok-third{
     margin: 0 5%;
+  }
+  .blok-third{
+    background-position: center;
   }
   .forma input{
     margin-top: 43px;
@@ -149,6 +155,9 @@
   nav{
     display: none;
   }
+  .blok-first{
+    background-position: center;
+  }
   .blok-first h1{
     font-size: 4rem;
     line-height: 5rem;
@@ -200,6 +209,9 @@
 }
   .blok-second h3{
     padding-top: 19px;
+  }
+  .blok-third{
+    background-position: center;
   }
   .content-blok-third{
     margin: 0 5%;
@@ -291,8 +303,11 @@
     margin:0;
     padding: 10px 10px;
     text-align: center;
-    color: grey;
+    color: gray;
     font-size: 2rem;
+  }
+  .blok-first{
+    background-position: center;
   }
   .blok-first h1{
     font-size: 4rem;
@@ -348,6 +363,9 @@
 }
   .blok-second h3{
     padding-top: 19px;
+  }
+  .blok-third{
+    background-position: center;
   }
   .content-blok-third{
     margin: 0 5%;
@@ -441,6 +459,9 @@
     padding: 10px 10px;
     font-size: 2rem;
   }
+  .blok-first{
+    background-position: center;
+  }
   .blok-first h1{
     font-size: 4rem;
     line-height: 5rem;
@@ -498,6 +519,9 @@
 }
   .blok-second h3{
     padding-top: 19px;
+  }
+  .blok-third{
+    background-position: center;
   }
   .content-blok-third{
     margin: 0 5%;
