@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>time</title>
+    <meta charset="utf-8">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript">
+        var hour=0, min=0, sec=0;
+        function init() {
+            setInterval(tick, 1000);
+            }
+            function tick() {
+                sec++;
+                if (sec>=60) {min++; sec=0;}
+                if (min>=60) {hour++; min=0;}
+                if (sec<10) {document.getElementById("second").childNodes[0].nodeValue = "0" + sec;}
+                else {document.getElementById("second").childNodes[0].nodeValue = sec;}
+                if (min<10) {document.getElementById("minute").childNodes[0].nodeValue = "0" + min + ":";}
+                else {document.getElementById("minute").childNodes[0].nodeValue = min + ":";}
+                if (hour<10) {document.getElementById("hours").childNodes[0].nodeValue = "0" + hour + ":";}
+                else {document.getElementById("hours").childNodes[0].nodeValue = hour + ":";}              
+            }
+        </script>
+    </head>
+    <body onload="init()">
+        <div id="hours">00:</div>
+        <div id="minute">00:</div>
+        <div id="second">00</div>     
+    </body>
+</html>
