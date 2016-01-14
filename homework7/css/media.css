@@ -1,0 +1,573 @@
+@media screen and (min-width: 320px) and (max-width: 479px){
+  html{
+    font-size: 70%;
+  }
+  .container{
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+  }
+  header,
+  .logo{
+    padding: 0;
+    margin: 0;
+  }
+  .logo{
+    padding-top: 5%;
+    margin-bottom: 2%;
+    float: none;
+    text-align: center;
+    line-height: 2rem;
+  }
+  nav{
+    display: none;
+  }
+  .blok-first{
+    background-position: center;
+  }
+  .blok-first h1{
+    font-size: 3.5rem;
+    line-height: 5rem;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .blok-first h2{
+    font-size: 2.5rem;
+    line-height: 3rem;
+    padding: 0;
+  }
+  .blok-first img {
+    margin: 5% 0;
+  }
+  .contenf-first,
+  .contenf-second,
+  .contenf-third{
+    float: none;
+    width: 94%;
+    margin: 0 3%;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.7rem;
+  }
+  .read-more {
+    margin: 15px 0;
+  }
+  .read-more a{
+    padding: 7px 20px;
+  }
+  .blok-second h1{
+    margin: 15px 0;
+  }
+  .blok-second img{
+    width: 100%;
+  }
+  .second-content_a,
+  .second-content_b,
+  .second-content_c{
+    width: 100%;
+    float: none;
+    margin-bottom: 10px;
+  }
+  p.content-blok-second {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.7rem;
+     margin: 0 0 5px 0;
+}
+  .blok-second h3{
+    padding-top: 19px;
+  }
+  .content-blok-third{
+    margin: 0 5%;
+  }
+  .blok-third{
+    background-position: center;
+  }
+  .forma input{
+    margin-top: 43px;
+    padding: 9px 0 10px 33px;
+    width: 70%;
+  }
+  .button input{
+    padding: 16px 5px;
+    width: 28%;
+    right: -35%;
+    top: -54px;
+    font-size: 1.5rem;
+  }
+  .blok-fourth{
+    padding: 18px 0;
+  }
+  .right-content{
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 3%;
+    margin-bottom: 10px;
+  }
+  .right-content h3 {
+    padding: 0; 
+  }
+  .subscription img,
+  .subscription:nth-child(odd) img{
+    width: 100%;
+    float: none;
+    margin-right: 2%;
+  }
+  .sign-up_second{
+    padding: 5%;
+  }
+  .sign-up_second a{
+    padding: 10px 25px;
+  }
+  .blok-five ul{
+    float: none;
+    margin: 5px 0;
+    width: 100%;
+  }
+  .footer-content {
+    padding: 0 5%;
+    margin-bottom: 10px;
+    padding-top: 10px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 767px){
+  html{
+    font-size: 60%;
+  }
+  .container{
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+  }
+  header,
+  .logo{
+    padding: 0;
+    margin: 0;
+  }
+  .logo{
+    padding-top: 5%;
+    margin-bottom: 2%;
+    float: none;
+    text-align: center;
+    line-height: 2rem;
+  }
+  nav{
+    display: none;
+  }
+  .blok-first{
+    background-position: center;
+  }
+  .blok-first h1{
+    font-size: 4rem;
+    line-height: 5rem;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .blok-first h2{
+    line-height: 2.4rem;
+    padding: 0;
+  }
+  .blok-first img {
+    margin: 5% 0;
+  }
+  .contenf-first,
+  .contenf-second,
+  .contenf-third{
+    float: none;
+    width: 94%;
+    margin: 0 3%;
+    text-shadow: #000000 0 0 10px;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+  }
+  .read-more {
+    margin: 15px 0;
+  }
+  .read-more a{
+    padding: 7px 20px;
+  }
+  .blok-second h1{
+   margin: 15px 0;
+  }
+  .blok-second img{
+    width: 100%;
+  }
+  .second-content_a,
+  .second-content_b,
+  .second-content_c{
+    width: 100%;
+    float: none;
+    margin-bottom: 10px;
+  }
+  p.content-blok-second {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+    margin-bottom: 5px;
+}
+  .blok-second h3{
+    padding-top: 19px;
+  }
+  .blok-third{
+    background-position: center;
+  }
+  .content-blok-third{
+    margin: 0 5%;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+  }
+  .forma input{
+    margin-top: 43px;
+    padding: 9px 0 10px 33px;
+    width: 70%;
+  }
+  .button input{
+    padding: 16px 5px;
+    width: 18%;
+    right: -35%;
+    top: -50px;
+    font-size: 1.5rem;
+  }
+  .blok-fourth{
+    padding: 18px 0;
+  }
+  .right-content{
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 3%;
+    margin-bottom: 10px;
+  }
+  .right-content p{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+  }
+  .right-content h3 {
+    padding: 0; 
+  }
+  .subscription img,
+  .subscription:nth-child(odd) img{
+    width: 100%;
+    float: none;
+    margin-right: 2%;
+  }
+  .sign-up_second{
+    padding: 5%;
+  }
+  .sign-up_second a{
+    padding: 10px 25px;
+  }
+  .blok-five ul {
+    float: left;
+    margin: 5px 0;
+    width: 48%;
+  }
+  .footer-content {
+    padding: 0 5%;
+    margin-bottom: 10px;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  html{
+    font-size: 70%;
+  }
+  .container{
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+  }
+  header,
+  .logo{
+    padding: 0;
+    margin: 0;
+  }
+  .logo{
+    padding-top: 5%;
+    margin-bottom: 2%;
+    float: none;
+    text-align: center;
+    line-height: 2rem;
+  }
+  nav{
+    margin: 0;
+    margin-bottom: 10px;
+    float: none;
+  }
+  nav a{
+    margin:0;
+    padding: 10px 10px;
+    text-align: center;
+    color: gray;
+    font-size: 2rem;
+  }
+  .blok-first{
+    background-position: center;
+  }
+  .blok-first h1{
+    font-size: 4rem;
+    line-height: 5rem;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .blok-first h2{
+    line-height: 2.4rem;
+    padding: 0;
+  }
+  .blok-first h3 a{
+    font-size: 3rem;
+  }
+  .blok-first img {
+    margin: 5% 0;
+  }
+  .contenf-first,
+  .contenf-second,
+  .contenf-third{
+    float: none;
+    width: 94%;
+    margin: 0 3%;
+    text-shadow: #000000 0 0 10px;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 3.5rem;
+  }
+  .read-more {
+    margin: 15px 0;
+  }
+  .read-more a{
+    padding: 7px 20px;
+  }
+  .blok-second h1{
+   margin: 15px 0;
+  }
+  .blok-second img{
+    width: 60%;
+  }
+  .second-content_a,
+  .second-content_b,
+  .second-content_c{
+    width: 100%;
+    float: none;
+    margin-bottom: 10px;
+  }
+  p.content-blok-second {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+    margin-bottom: 5px;
+}
+  .blok-second h3{
+    padding-top: 19px;
+  }
+  .blok-third{
+    background-position: center;
+  }
+  .content-blok-third{
+    margin: 0 5%;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+  }
+  .forma input{
+    margin-top: 43px;
+    padding: 9px 0 10px 33px;
+    width: 70%;
+  }
+  .button input{
+    padding: 16px 5px;
+    width: 18%;
+    right: -30%;
+    top: -55px;
+    font-size: 1.5rem;
+  }
+  .blok-fourth{
+    padding: 18px 0;
+  }
+  .right-content{
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 3%;
+    margin-bottom: 10px;
+  }
+  .right-content p{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+  }
+  .right-content h3 {
+    padding: 0; 
+  }
+  .subscription img,
+  .subscription:nth-child(odd) img{
+    width: 100%;
+    float: none;
+    margin-right: 2%;
+  }
+  .sign-up_second{
+    padding: 5%;
+  }
+  .sign-up_second a{
+    padding: 10px 25px;
+  }
+  .blok-five ul {
+    float: left;
+    margin: 5%;
+    width: 23%;
+  }
+  .footer-content {
+    padding: 0 5%;
+    margin-bottom: 10px;
+    padding-top: 10px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1199px){
+  html{
+    font-size: 70%;
+  }
+  .container{
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+  }
+  header,
+  .logo{
+    padding: 0;
+    margin: 0;
+  }
+  .logo{
+    padding-top: 5%;
+    text-align: left;
+    overflow: hidden;
+    float: left;
+    padding-top: 1%;
+    margin-bottom: 2%;
+  }
+  nav{
+    margin: 0;
+    padding-top: 2%;
+    margin-bottom: 10px;
+    float: right;
+  }
+  nav a{
+    margin:0;
+    padding: 10px 10px;
+    font-size: 2rem;
+  }
+  .blok-first{
+    background-position: center;
+  }
+  .blok-first h1{
+    font-size: 4rem;
+    line-height: 5rem;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .blok-first h2{
+    line-height: 2.4rem;
+    padding: 0;
+  }
+  .blok-first h3 a{
+    font-size: 3rem;
+  }
+  .blok-first img {
+    margin: 5% 0;
+  }
+  .contenf-first,
+  .contenf-second,
+  .contenf-third{
+    float: left;
+    width: 27%;
+    margin: 3%;
+    text-shadow: #000000 0 0 10px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+  }
+  .read-more {
+    margin: 25px 0;
+  }
+  .read-more a{
+    padding: 7px 20px;
+  }
+  .blok-second{
+    margin: 20px 0;
+  }
+  .blok-second h1{
+   margin: 15px 0;
+  }
+  .blok-second img{
+    width: 60%;
+  }
+  .second-content_a,
+  .second-content_b,
+  .second-content_c{
+    width: 33%;
+    float: left;
+    margin-bottom: 10px;
+  }
+  p.content-blok-second {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+    margin-bottom: 5px;
+}
+  .blok-second h3{
+    padding-top: 19px;
+  }
+  .blok-third{
+    background-position: center;
+  }
+  .content-blok-third{
+    margin: 0 5%;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+  }
+  .forma input{
+    margin-top: 43px;
+    padding: 9px 0 10px 33px;
+    width: 50%;
+  }
+  .button input{
+    padding: 16px 5px;
+    width: 18%;
+    right: -18%;
+    top: -55px;
+    font-size: 1.5rem;
+  }
+  .blok-fourth{
+    padding: 18px 0;
+  }
+  .right-content{
+    padding-bottom: -5%;
+    padding-top: 0;
+    margin-bottom: 10%;
+  }
+  .right-content p{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+  }
+  .right-content h3 {
+    padding: 0; 
+  }
+  .sign-up_second{
+  padding-top: 20px;
+}
+  .blok-five ul {
+    float: left;
+    margin: 5%;
+    width: 23%;
+  }
+  .footer-content {
+    padding: 0 5%;
+    margin-bottom: 10px;
+    padding-top: 10px;
+  }
+}

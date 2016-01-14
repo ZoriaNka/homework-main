@@ -1,0 +1,305 @@
+@import url(../fonts/stylesheet.css);
+html{
+font-size: 62.5%;
+}
+body{
+  background-image: url(../image/main-bg.png);
+  background-size: cover;
+  font-family: "roboto_slabregular";
+  font-size: 3rem;
+  line-height: 3.6rem;
+  font-weight: 700;
+  text-align: center;
+}
+.container{
+  overflow: hidden;
+  width: 1200px;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+  color: #31353e;
+}
+/*--------------------- header area --------------------*/
+header{
+  padding-bottom: 10px;
+}
+.logo{
+  padding-top: 49px;
+  text-align: left;
+  overflow: hidden;
+  float: left;
+}
+h4{
+  color: #31353e;
+  font-size: 3.6rem;
+}
+.title{
+  color: #dd4b2b;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+nav{
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  float: right;
+  margin-top: 52px;
+}
+nav a{
+  margin-right: 15px;
+}
+nav a:hover{
+  border: 1px solid #dd4b2b;
+  background-color: #dd4b2b;
+  transition: 0.5s;
+  border-radius: 25px;
+  padding: 5px 15px;
+  color: #ffffff;
+}
+/*--------------------- main area --------------------*/
+.main{
+  color: #ffffff;
+  overflow: hidden;
+}
+.blok-first{
+  background-image: url(../image/bg-first-section.png);
+  background-size: cover;  
+}
+.blok-first h1{
+  font-size: 6rem;
+  line-height: 2.4rem;
+  padding-top: 200px;
+  padding-bottom: 5px;
+  text-shadow: #000000 0 0 5px;
+}
+.blok-first h2{
+  text-shadow: #000000 0 0 5px;
+  font-weight: 900;
+  line-height: 2.4rem;
+  padding-top: 35px;
+  padding-bottom: 75px;
+}
+.blok-first h3 a{
+  color: white;
+  line-height: 2.4rem;
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+.blok-first img {
+  margin-top: 20px;
+  margin-bottom: 28px;
+}
+.contenf-first,
+.contenf-second,
+.contenf-third{
+  float: left;
+  text-shadow: #000000 0 0 5px;
+  margin: 0 2%;
+  width: 29%;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 3rem;
+  margin-bottom: 50px;
+}
+.read-more {
+  margin: 80px auto;
+  color: #612316;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 3rem;
+  clear: both;
+}
+.read-more a{
+  color: #612316;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 3rem;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding: 15px 40px;
+}
+.read-more a:hover{
+  border: 1px solid #dd4b2b;
+  background-color: #dd4b2b;
+  transition: 0.5s;
+  color: #ffffff;
+}
+.blok-second h1{
+  color: #31353e;
+  line-height: 2.4rem;
+  margin: 35px 0;
+}
+.second-content_a,
+.second-content_b,
+.second-content_c{
+  width: 33%;
+  float: left;
+  margin-bottom: 50px;
+}
+.second-content_c{
+  overflow: hidden;
+}
+.blok-second h3{
+  font-size: 2.4rem;
+  color: #31353e;
+  padding-top: 39px;
+  padding-bottom: 7px;
+}
+p.content-blok-second {
+  color: #31353e;
+  margin: 0 20px 15px;
+  line-height: 3rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.read-more-second a{
+  color: #4e5159;
+  font-family: "robotoregular";
+  font-size: 1.5rem;
+  font-weight: 300;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding: 7px 15px;
+}
+.blok-third{
+  background-image: url(../image/bg-third-section.png);
+  background-size: cover;
+}
+.blok-third h3 a{
+  color: white;
+  font-weight: 700;
+  line-height: 4.8rem;
+  margin-bottom: 50px;
+}
+.forma input{
+  margin-top: 43px;
+  padding: 15px 0 15px 36px;
+  width: 40%;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 27px;
+  color: #f3f4f6;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 3rem;
+}
+.button input{
+  position: relative;
+  background-color: white;
+  padding: 15px 0;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 27px;
+  color: #612316;
+  width: 15%;
+  right: -250px;
+  top: -62px;
+  font-size: 2.5rem;
+}
+.blok-third h3{
+  padding-top: 88px;
+}
+.content-blok-third{
+  color: white;
+  margin: 0 30%;
+  font-family: "robotoregular";
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 2.4rem;
+}
+.right-content h3 {
+  color: #191b29;
+  text-align: left;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 4.8rem;
+  padding-top: 20px;
+  padding-bottom: 40px; 
+}
+.blok-fourth{
+  padding-top: 58px;
+  background-color: #ffffff;
+  padding-bottom: 100px;
+}
+.right-content{
+  color: #191b29;
+  overflow: hidden;
+  width: 48%;
+  text-align: left;
+  padding-bottom: 20px;
+  padding-top: 3%;
+  margin-bottom: 10%;
+  font-family: "robotoregular";
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 3rem;
+}
+.subscription img{
+  width: 48%;
+  float: left;
+  margin-right: 2%;
+}
+.subscription:nth-child(odd) .right-content{
+  overflow: hidden;
+}
+.subscription:nth-child(odd) img{
+  float: right;
+} 
+.sign-up_second{
+  padding-top: 50px;
+}
+.sign-up_second a{
+  font-family: "robotoregular";
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 3rem;
+  color: #4e5159;
+  border-radius: 25px;
+  color: #ffffff;
+  padding: 19px 78px;
+  background-color: #4b4e73;
+  border: 1px solid #4b4e73;
+}
+.subscription:nth-child(odd) .sign-up_second a{
+  border: 1px solid #dd4b2b;
+  background-color: #dd4b2b;
+}
+.blok-five{
+  background-color: #d75d0e; 
+}
+.blok-five ul{
+  float: left;
+  margin: 40px 0;
+  width: 33%;
+}
+.blok-five ul a{
+  color: white;
+  font-family: "robotoregular";
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+/*--------------------- footer area --------------------*/
+footer{
+  background-image: url(../image/bg-third-section.png);
+  background-size: cover;
+}
+.footer-content {
+  color: white;
+  padding: 89px 21% 0 21%;
+  margin-bottom: 30px;
+  font-family: "proxima_nova";
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  font-weight: 300;
+}
+footer.bold {
+  text-decoration: none;
+  color: white;
+}
+.bold a{
+  color: #ffffff;
+  font-weight: 700;
+}
