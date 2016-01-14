@@ -1,31 +1,64 @@
 html {
   font-size: 62.5%;
-  background: url(../image/bg-main.jpg);
-  background-size: cover;
 }
 body {
+  background: url(../image/bg-main.jpg);
+  background-size: cover;
   font-family: "arial";
   font-weight: 900;
-  margin: 20% 24%;
+  width: 100%;
+  margin: 0 auto;
 }
 #second,
 #minute,
 #hours {
+  float: left;
   font-size: 15rem;
   color: #483D8B;
-  float: left;
   padding: 15px 0;
   border: 2px solid #000000;
   background: #000000;
-  opacity: 0.8;
+  opacity: 0.9;
+  }
+.timer {
+  overflow: hidden;
+  margin: 10% 0 0 25%;
+  }
+.calculator {
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  margin-left: 25%;
 }
-#second:hover,
-#minute:hover,
-#hours:hover {
-  color: #00BFFF;
-  background: #ffffe0;
-  border: 5px solid #ffffe0;
-  transition: 1s;
+.calculator table td {
+  border-spacing: 3px;
+  padding: 15px;
 }
-
+h1 {
+  overflow: hidden;
+  margin-top: 50px;
+  font-size: 9rem;
+  color: #483d8b;
+  text-align: center;
+  text-shadow: 2px 1px 5px #000000;
+  padding-bottom: 15px;
+}
+input.display {
+  width: 70%; 
+  text-align: right;
+  font-size: 5rem;
+  color: #483d8b;
+}
+.nam {
+  font-size: 5rem;
+  width: 100px;
+  height: 80px;
+  margin-left: 8px;
+}
+.sum {
+  width: 70%;
+  padding: 10px;
+  font-size: 5rem;
+  margin-top: 15px;
+}
 
