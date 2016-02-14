@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>form and tables</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style_1.css"> 
+  </head>
+  <body>
+    <a href="2/index.html">Завдання №2</a>
+    <h1>Урок "Форми": теги та їх атрибути</h1>
+    <h2>Розкажіть дещо про себе...</h2>
+    <p class="about">Спробуйте створити аналогічну форму. Для цілей демонстрації цілком підійдуть і видумані</p>
+    * - обовя'зкові поля
+    <form action="checker.php" method="post">
+      <fieldset>
+      <legend> Коротко про себе </legend>
+        <ul>
+          <li>
+            <label><input type="text" name="firstname" maxlength="20"> Ім'я*</label>
+          </li>
+          <li>
+            <label><input type="text" name="lastname" maxlength="30"> Прізвище*</label>
+          </li>
+          <li>
+            *Стать: 
+            <label><input type="radio" name="sex" value="чоловіча">чоловіча</label>
+            <label><input type="radio" name="sex" value="жіноча">жіноча</label>
+          </li>
+          <li>
+            <label><input type="number" name="age" min="5" max="150"> Вік (р.)*</label>
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+      <legend>Детальніше про себе</legend>
+        <ul>
+          <li>
+            <label><input type="date" name="bday"> Дата народження*</label>
+          </li>
+          <li>
+            <label><input type="text" name="family" maxlength="20"> Сімейний стан</label>
+          </li>
+          <li>
+            <label><input type="text" name="social" maxlength="20"> Соціальний статус</label>
+          </li>
+          <li>
+            <label><input type="text" name="addres" maxlength="100"> Місце проживання</label>
+          </li>
+          <li>
+            <label><input type="email" name="email" maxlength="100"> Електронна скринька*</label>
+          </li>
+          <li>
+            <label><input type="number" name="schoolTeachingYear"> Роки навчання в школі</label>
+          </li>
+          <li>
+            <ul>
+              <li class="view">Як проходять ваші вихідні:</li>
+              <li>
+                <label><input type="checkbox" name="hobby[]">Сплю</label>
+              </li>
+              <li>
+                <label><input type="checkbox" name="hobby[]">Розважаюсь з друзями</label>
+              </li>
+              <li>
+                <label><input type="checkbox" name="hobby[]">Ходжу на рибалку</label>
+              </li>
+              <li>
+                <label><input type="checkbox" name="hobby[]">Граю в ігри</label>
+              </li>
+            </ul>
+          </li>
+          <li> 
+            <ul>     
+              <li class="view">Розповісти про форми з книги, яка присвячена HTML
+              </li>
+              <li>
+                <select name="example">
+                  <option value="Site frequency">Site frequency</option>
+                  <option value="Else">Else</option> 
+                  <option value="More">More</option> 
+                </select>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li class="view">Скiльки книжок Ви прочитали за своє життя</li>
+              <li>
+                <input  for="amount" oninput="amount.value=books.value"
+                        id="slider" type="range" min="0" max="500" step="10" name="books" />
+
+                <input oninput="books.value=amount.value"
+                       id="box" type="text" value="" name="amount"
+                       for="books" disabled oninput="books.value=amount.value" />
+              </li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li class="view">*Ваші коментарі:</li>
+              <li>
+                <label><textarea name="comment" maxlength="1000"rows=10 cols=50></textarea></label>
+              </li>
+              <li>
+                <select name="example" multiple size=3>
+                  <option value="first">перша позиція</option>
+                  <option value="second" selected>друга позиція</option>
+                  <option value="third">третя позиція</option> 
+                </select>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+      <legend>I на завершення</legend>
+        <ul>
+          <li>
+            <label><input type="text" name="fileded" size="30" value="Це поле вже було заповнене до нас" readonly="readonly"></label>
+          </li>
+          <li>
+            <ul>
+              <li class="view">Чи бажаєте підписатися на чудову розсилку спаму?</li>
+              <li>Виберіть категорії</li>
+              <li>
+                <label><input type="checkbox" name="var[] value="Обладнання">Обладнання</label>
+              </li>
+              <li>
+                <label><input type="checkbox" name="var[]" value="Як приготувати обід">Як приготувати обід</label>
+              </li>
+              <li>
+                <label><input type="checkbox" name="var[]" value="Зароби мільйон за два дні!">Зароби мільйон за два дні!</label>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li class="view">Наскільки складне завдання</li>
+              <li>
+                <label><input type="radio" name="dificalt" value="Зовсім ні" checked>Зовсім ні</label>
+              </li>
+              <li>
+                <label><input type="radio" name="dificalt" value="Так собі">Так собі</label>
+              </li>
+              <li>
+                <label><input type="radio" name="dificalt" value="Ледве зробили">Ледве зробили</label>
+              </li>
+            </ul> 
+          </li> 
+        </ul>
+      </fieldset>
+      <ul>
+        <li>
+          <input type="submit" value="Надіслати">
+        </li>
+      </ul>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,74 @@
+body {
+    
+    background-color: #FFDAB9;
+    color: black;
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 45px;
+    width: 100%;
+    color: #A0522D;
+    text-shadow: black 3pt 2pt 4px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 900;
+    }
+    h2 {
+    font-family: times;
+    font-size: 35px;
+    color: #2F4F4F;
+    text-align: center;
+    font-weight: 900;
+    padding: 15px;
+    }
+li {
+  list-style-type: none;
+  margin: 15pt 0% 0% 50pt;
+}
+.about{
+    font-family: times;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    font-weight: 900;
+    padding: 10px;
+    font-style: italic;
+}
+legend{
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+    color: green;
+    text-align: left;
+    font-weight: 700;
+    margin: 0 0 0pt 50pt;
+   }
+input{
+     padding: 10pt;
+}
+input:hover {
+  border: 3px solid #708090;
+  background: #FFB6C1;
+}
+ .view{
+    font-family: times;
+    font-size: 20px;
+    color: gray;
+    text-align: left;
+    font-weight: 700;
+    margin: 25pt 0 5pt 0;
+    }
+    fieldset{
+        border: 2pt solid black;
+        padding: 15pt;
+        margin: 20pt 0 0 0;
+    }
+    input[type=submit] {
+    border-radius: 10px;
+    font-family: arial;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    background: #FF00FF;
+    padding: 15pt;
+    }
